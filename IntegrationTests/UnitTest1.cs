@@ -7,7 +7,7 @@ using NUnit.Framework;
 
 namespace IntegrationTests
 {
-    public class Tests
+    public class ApiIntegrationTests
     {
         private HttpClient _client;
 
@@ -20,7 +20,7 @@ namespace IntegrationTests
         }
 
         [Test]
-        public async Task Test1()
+        public async Task Get_WithWeatherData_ShouldReturnCollection()
         {
             var response = await _client.GetAsync("/WeatherForecast");
 
