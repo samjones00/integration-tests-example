@@ -1,3 +1,5 @@
+![CI Pipeline](https://github.com/samjones00/integration-tests-example/workflows/.NET%20Core/badge.svg)
+
 # integration-tests-example
 
 Examples based on Microsoft docs:
